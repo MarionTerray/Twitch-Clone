@@ -1,0 +1,221 @@
+.liveStream {
+    flex-grow: 1;
+    width: max-content;
+    height: 1500px;
+    margin-top: 50px;
+    margin-left: 230px;
+    background-color:  rgb(247, 247, 247);
+}
+.liveStream__video {
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(146, 125, 96, 0.507);
+}
+
+.hAJeter {
+    padding-top: 250px;
+    padding-left: 450px;
+    color: rgba(122, 79, 0, 0.342);
+}
+
+.liveStream__infoLive {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.liveStream__infoLive__left {
+    display: flex;
+    margin: 10px;
+    position: relative;
+    
+}
+.StreamInfo__icone > img {
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    margin: 10px 6px 6px 15px;
+    border: 3px solid rgb(61, 0, 0);
+}
+
+.StreamInfo__icone_LiveOn {
+    background-color: rgb(226, 0, 0);
+    color: white;
+    width: fit-content;
+    padding: 2px 5px 2px 5px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    position: absolute;
+    top: 72px;
+    left: 33px;
+    border: 1px solid white;
+}
+
+.StreamInfo__icone > img:hover {
+    cursor: pointer;
+    outline: 2px solid rgb(61, 0, 0);
+}
+
+.StreamInfo__text{
+    padding: 10px 5px 10px 5px;
+    line-height: 1.7rem;
+}
+.StreamInfo__text > h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.StreamInfo__text > h2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+} 
+
+.StreamInfo__text > h3 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.StreamInfo__textCategorie {
+    display: flex;
+    align-items: center;
+    line-height: 1.4rem;
+}
+.StreamInfo__textCategorie > p {
+    margin-right: 10px;
+    line-height: 0.8rem;
+    margin-top: 4px;
+}
+.jeux {
+    font-size: 0.9rem;
+    color: #9147ff;
+    font-weight: 500;
+}
+.jeux:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.langue {
+    color: rgb(77, 77, 77);
+    background-color: rgb(238, 238, 238);
+    padding: 2px 8px 2px 8px;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 0.75rem;
+}
+.langue:hover {
+    cursor: pointer;
+    background-color: rgb(228, 228, 228);
+}
+
+.liveStream__infoLive__rightTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 230px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.liveStream__infoLive__rightTop > button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 155px;
+    height: 30px;
+    border: none;
+    background-color: #9147ff;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.liveStream__infoLive__rightTop > button:hover {
+    cursor: pointer;
+    background-color: #772ce8;
+}
+
+.infoLive__icons {
+    padding: 5px;
+    border-radius: 4px;
+}
+.infoLive__icons:hover {
+    cursor: pointer;
+    background-color: rgb(231, 231, 231);
+}
+
+.liveStream__infoLive__rightBot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 230px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.liveStream__views {
+    display: flex;
+    align-items: center;
+}
+
+.liveStream__views > p {
+    margin-left: 5px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #c50024;
+}
+.liveStreal__timer {
+    font-size: 0.8rem;
+}
+
+
+.liveStream__infoChaine {
+    background-color: white;
+    border-radius: 5px;
+    width: 85%;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.liveStream__infoChaine__left {
+    margin-top: 50px;
+    margin-left: 20px;
+    line-height: 1.8rem;
+}
+.liveStream__infoChaine__left > h3 {
+    font-size: 1.5rem;
+    padding-bottom: 8px;
+}
+.liveStream__infoChaine__left > p {
+    font-size: 0.9rem;
+}
+
+.liveStream__infoChaine__right {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.socialLink {
+    display: flex;
+    align-items: center;
+    width: 120px;
+    height: 30px;
+    margin: 3px 15px 3px 10px;
+    padding: 3px;
+    color: rgb(88, 88, 88);
+}
+
+.socialLink:hover {
+    cursor: pointer;
+    color: rgb(43, 43, 43);
+}
+
+.socialLink > p {
+    padding-left: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}

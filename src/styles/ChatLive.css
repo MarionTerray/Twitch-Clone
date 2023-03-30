@@ -1,0 +1,142 @@
+.chatLive {
+    width: 335px;
+    margin-top: 51px;
+}
+
+.chatLive__chat {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid lightgray;
+}
+
+.chatLive__header {
+    flex: 0.065;
+    min-height: 50px;
+    width: 310px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 6px 2px 6px;
+    border-bottom: 1px solid rgb(228, 228, 228) ;
+    
+}
+
+.chatLive__icons {
+    padding: 3px;
+    margin-right: 5px;
+}
+
+.chatLive__headerTitle {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: rgb(85, 85, 85);
+}
+
+.chatLive__TopGifter {
+    width: 300px;
+    flex: 0.08;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid rgb(228, 228, 228) ;
+}
+
+.chatLive__Messages {
+    flex: 0.7;
+}
+
+.chatLive__Messages > p {
+    font-size: 0.9rem;
+    padding: 5px;
+}
+
+.chatLive__inputText {
+    width: 320px;
+    flex: 0.1;
+    min-height: 90px;
+}
+
+.input > input {
+    border: none;
+    width: 220px;
+    height: 40px;
+    margin-left: 3px;
+    margin-top: 2px;
+    padding-left: 10px;
+    background-color: rgb(231, 231, 231);
+}
+.input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgb(231, 231, 231);
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 4px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.underInput {
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6px;
+}
+.underInput__left {
+    display: flex;
+    align-items: center;
+    margin-left: 7px;
+    padding: 4px;
+}
+
+.underInput__left:hover {
+    cursor: pointer;
+    
+    background-color: lightgrey;
+    border-radius: 4px;
+}
+
+.underInput__left > p {
+    padding-left: 5px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: rgb(66, 66, 66);
+}
+.underInput__right {
+    display: flex;
+    align-items: center;
+}
+
+
+.underInput__right > button {
+    border: none;
+    background-color: #9147ff;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.underInput__right > button:hover {
+    cursor: pointer;
+    background-color: #772ce8;
+}
+
+.chat__icons {
+    padding: 3px;
+    margin: 1px;
+}
+.chat__icons:hover {
+    cursor: pointer;
+    background-color: lightgrey;
+    border-radius: 4px;
+}
+
+

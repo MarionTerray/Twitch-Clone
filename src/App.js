@@ -1,24 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Nav from './components/Nav';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import ChatLive from './components/ChatLive';
+import LiveStream from './components/LiveStream';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="app">
+        <Routes>
+          <Route path='/' element={<><Header /><main><Nav /> <LiveStream /> <ChatLive /></main>  </>} />
+
+        </Routes> 
+      </div>
+    </Router>
+    
   );
 }
 

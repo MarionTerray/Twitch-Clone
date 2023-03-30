@@ -1,0 +1,117 @@
+.header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    box-shadow: 1px 1px 1px rgb(236, 236, 236);
+    position: fixed;
+    z-index: 1;
+}
+
+.header__icons {
+    margin-left: 7px;
+    margin-right: 5px;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+.header__icons:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+.header__left {
+    display: flex;
+    flex: 0.25;
+    max-width: 300px;
+    margin-left: 10px;
+    margin-right: 40px;
+    padding-right: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__left > img {
+    width: 27px;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left: 8px;
+}
+.header__left > p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: rgb(66, 66, 66);
+}
+
+.header__left >p:hover {
+    color: #9147ff;
+    cursor: pointer;
+}
+
+.header__center {
+    flex: 0.55;
+    max-width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__center > input {
+    width: 65%;
+    height: 35px;
+    padding-left: 15px;
+    margin-right: 3px;
+    border: none;
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px 0px 0px 5px;
+}
+
+.header__center > input:hover {
+    outline: 2px solid rgb(163, 163, 163);
+}
+
+.header__center > button {
+    height: 37px;
+    border: none;
+    background-color: rgb(238, 238, 238);
+    border-radius: 0px 5px 5px 0px;
+}
+.header__center > button:hover {
+    cursor: pointer;
+    background-color: rgb(218, 218, 218)
+}
+
+.header__right {
+ flex: 0.30;
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+ padding-right: 5px;
+}
+
+.header__right_bits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 233, 233);
+    border-radius: 5px;
+    padding-left: 1px;
+    padding-right: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.header__right_bits:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+.header__avatar {
+    font-size: 1.5rem;
+    margin-left: 2px;
+}
